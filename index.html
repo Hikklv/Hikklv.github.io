@@ -1,0 +1,192 @@
+<html>
+	<head>
+	
+	<style>
+		*
+		{
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container
+		{
+			padding: 0 15px;
+			margin: 0 auto;
+		}
+		
+		/* Стили для меню */
+		
+		.header
+		{
+			color: white;
+			background: #151c39e8;
+			padding: 20px;
+		}
+		
+		.menu-item
+		{
+			list-style: none;
+			display: inline;
+		}
+		
+		.menu-linc
+		{
+			color: white;
+			text-decoration: none;
+			padding: 0 5px;
+		}
+		
+		.head
+		{
+			padding: 0 50px;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.header-logo
+		{
+			display: flex;
+			line-height: 50px;
+		}
+		
+		.header-menu
+		{
+			line-height: 50px;
+		}
+		
+		/* Стили для банера */
+		
+		.banner-section
+		{
+			background: url(banner-bg.jpg);
+			background-size: cover;
+			padding: 100px 0;
+		}
+		
+		.banner-title
+		{
+			font-size: 48px;
+		}
+		
+		.banner-text
+		{
+			color: white;
+			text-align: center;
+		}
+		
+		/* Стили для карточек */
+
+		.cards-section
+		{
+			padding: 50px 0px;
+		}
+
+		.cards-title, .cards-description
+		{
+			color: #151c39;
+			text-align: center;
+		}
+
+		.card
+		{
+			padding: 25px;
+			margin-top: 25px;
+			width: 25%;
+			background: white;
+			box-shadow: 0px 2px 7px #9e90ff;
+			text-align: center;
+		}
+
+		.card-link
+		{
+			text-decoration: none;
+			color: white;
+		}
+
+		.card-button
+		{
+			text-align: center;
+			background: #151c39;
+			padding: 10px 70px;
+			border-radius: 10px;
+		}
+
+		.card-title, .card-text
+		{
+			margin-bottom: 10px;
+		}
+		
+	</style>
+	
+	
+	</head>
+	<body>
+	<!--Начало блока меню-->
+	<header class="header">
+		<div class="container head">
+			<div class="header-logo">
+				<img class="logo-img" src="cat.png">
+				<h1 class="logo-title">CATS</h1>
+			</div>
+			<div class="header-menu">
+				<ul class="menu">
+					<li class="menu-item">
+						<a class="menu-linc" href="#">Home</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-linc" href="#">About</a>
+					</li>
+					<li class="menu-item">
+						<a class="menu-linc" href="#">Animals</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!--Конец блока меню-->
+	
+	<main class="main">
+		<!--Начало блока банера-->
+		<section class="banner-section">
+			<div class="container">
+				<div class="banner-text">
+					<h2 class="banner-title">
+					Зоомагазин
+					</h2>
+					<div class="banner-description">
+					Заведи питомца!
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Конец блока банера-->
+		
+		<!--Начало блока карточек-->
+		<section class="cards-section">
+		    <div class="container">
+			     <div class="card-text">
+				     <h1 class="cards-title">Рекомендуемые животные!</h1>
+					 <div class="cards-description">Специально для вас</div>
+				 </div>	  
+				 
+			     <div class="cards">
+				    <div class="cards-row">
+					     <div class="card">
+						     <img src="vasili.jpg">
+							 <h3 class="card-title">Кот Василий</h3>
+							 <div class="card-text">Ищет добрых хозяев</div>
+							 <div class="card-button">
+							     <a class="card-link">Узнать подробности</a>
+						     </div>
+					         </div>	
+		                 </div>
+		             </div>
+		         </div>
+		     </div>
+		</section>
+		<!--Конец блока карточек-->
+		
+	</main>
+	
+	</body>
+</html>
