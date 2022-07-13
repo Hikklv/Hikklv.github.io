@@ -1,48 +1,101 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lux/bootstrap.min.css" integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="style.css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+    <!--меню-->
+		<header class="header">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+	  <div class="container-fluid">
+			<img class="logo" src="img/иконка1.png">
+			<a class="navbar-brand" href="#">электроника и техника</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarColor01">
+		  <ul class="navbar-nav me-auto">
+			<li class="nav-item">
+			  <a class="nav-link active" href="ИНДИВИДУАЛЬНЫЙ ПРОЕКТ.html">домой (вернуться)
+				<span class="visually-hidden"></span>
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Особенности.html">особенности</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Доставка.html">доставка</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="О магазине.html">о магазине</a>
+			</li>
+			      <!--выпадающая кнопка-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  каталог
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home
-            <span class="visually-hidden">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+		  </ul>
+		  <form class="d-flex">
+			<input class="form-control me-sm-2" type="text" placeholder="поиск">
+			<button class="btn btn-secondary my-2 my-sm-0 m-1 p-1" type="submit">искать</button>
+		  </form>
+		</div>
+	  </div>
+	</nav>
+	</header>
+	
+  <!--баннер-->
+	<main class="main">
+		<section class="bg">
+			<div>
+				<h1 class = "h1">интернет магазин электроники и техники</h1>
+			</div>
+		</section>
+		
+    <section>
+      <h2 align = center>о нашем интернет-магазине<h2>
+    </section>
+    
+    <!--текст-->
+    <p>
+
+    </p>
+      <!--футер-->
+		<footer class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="search">
+					<div class="footer-text">
+						эл-почта для рассылки 
+					</div>
+					<div class="footer-search">
+						<input type="text" class="footer-search-input">
+						<button class="footer-search-button">отправить</button>
+					</div>
+				</div>
+				<div class="social-networks">
+					<a href="https://vk.com/feed"><img class = 'footer-logo' src='img/vk.png'></a>
+					<a href="https://www.facebook.com/"><img class = 'footer-logo' src='img/facebook.png'></a>
+					<a href="https://instagram-my.ru/help/instagram-login-my-page/"><img class = 'footer-logo' src='img/instagram.png'></a>
+					<a href="https://www.youtube.com/"><img class = 'footer-logo' src='img/youtube.png'></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 	</body>
 </html>
